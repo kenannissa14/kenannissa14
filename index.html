@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Halaman Utama</title>
+    <link rel="stylesheet" type="text/css" href="styleindex.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://www.itera.ac.id/wp-content/uploads/2019/02/logo_itera_bulet_head.png" width="120" height="120" align="left">
+            <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" width="120" height="120" align="right">
+            <br><br>
+            <h1>Website sederhana UTS pemrograman web</h1>
+            <h3>HALAMAN UTAMA</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="form.html">Halaman Formulir</a></li>
+                <li><a href="tabel.html">Halaman Tabel</a></li>
+                <li><a href="index.html">Halaman Utama</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="p">
+                <h2 style="text-align: center;">Selamat datang di website kami!</h2>
+                <p>Website ini adalah website sederhana yang dibuat untuk memenuhi tugas UTS mata kuliah Pemrograman Web. 
+                Website ini terdiri dari tiga halaman, yaitu Halaman Utama, Halaman Formulir, dan Halaman Tabel. Website ini
+                menggunakan HTML dan CSS untuk membuat layout dan desain halaman. Website ini juga menggunakan metode get untuk 
+                mengirim data dari form pendaftaran ke tabel.
+                <br><br>
+                Halaman Utama adalah halaman yang menampilkan judul website, logo, menu navigasi, dan deskripsi singkat tentang website.
+                Judul website adalah “Website Sederhana UTS”, logo adalah gambar huruf WSU, menu navigasi berisi link ke halaman form 
+                dan tabel, dan deskripsi singkat adalah “Website ini dibuat untuk memenuhi tugas UTS mata kuliah Pemrograman Web. Website
+                ini menampilkan form pendaftaran dan tabel daftar mahasiswa.”
+                <br><br>
+                Halaman Formulir adalah halaman yang menampilkan form pendaftaran dengan field: Nama, NIM, Program Studi, Email, 
+                Password, Jenis Kelamin, Tanggal Lahir, dan Alamat. Setiap field memiliki label yang jelas dan atribut required 
+                untuk field yang wajib diisi. Di bagian bawah form terdapat tombol submit yang akan mengirim data ke halaman tabel 
+                dengan menggunakan metode get. Query string yang akan dikirim berbentuk seperti ini: ?nama=...&nim=...&prodi=...
+                &email=...&password=...&jk=...&tgl=...&alamat=...
+                <br><br>
+                Halaman Tabel adalah halaman yang menampilkan tabel daftar mahasiswa dengan kolom: Nama, NIM, Program Studi, Email, Password,
+                Jenis Kelamin, Tanggal Lahir, dan Alamat. Tabel memiliki header dan setidaknya 5 baris data yang menggunakan data dummy.
+                Tabel juga menggunakan styling CSS untuk memberikan warna latar belakang yang berbeda pada baris genap (even) dan ganjil (odd).
+                <br><br>
+                Setiap halaman memiliki layout 3 baris (header, body, footer). Pada baris body terdapat sidebar dan konten utama. Header berisi judul
+                website dan logo. Konten utama berisi beberapa paragraf teks yang menjelaskan tentang website. Sidebar berisi daftar link ke halaman
+                eksternal (misalnya link ke halaman form atau tabel). Footer berisi informasi hak cipta dan tahun pembuatan website.
+                <br><br>
+                Setiap halaman file html memiliki 1 file css yang digunakan untuk mendesain halaman. File css menggunakan minimal 5 jenis selektor dalam
+                mendesain halaman. Jenis selektor yang digunakan adalah selektor elemen (misalnya h1, p, table), selektor id (misalnya #header, #footer),
+                selektor class (misalnya .sidebar, .content), selektor atribut (misalnya [type="text"], [required]), dan selektor pseudo-class
+                (misalnya :hover, :nth-child(odd)).</p>
+            </div>
+            
+        </main>
+        <footer>
+            <p>&copy; fauzan alfa abhista (2023)</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

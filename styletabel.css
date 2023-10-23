@@ -1,0 +1,108 @@
+/* Style untuk halaman utama, formulir, dan tabel */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: block;
+    padding: 30px;
+    background: #04364A;
+    white-space: nowrap;
+  }
+
+.header h1 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  line-height: 0;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header h3{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 0;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #176B87;
+  }
+  
+  /* Style navigasi bar */
+nav a {
+    float: right;
+    color: #f2f2f2; /* untuk warna font */
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+nav a:hover {
+    background-color: #64CCC5; /* untuk merubah warna pada saat link di sentuh/di klik */
+    color: rgb(2, 2, 2); /* warna pada hover */
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color:#176B87;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style untuk tabel */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #64CCC5;
+    color: black;
+}
+
+/* Style untuk baris genap dan ganjil */
+tr:nth-child(even) {
+    background-color: #DAFFFB;
+}
+
+tr:nth-child(odd) {
+    background-color: #ccfdf8;
+}
